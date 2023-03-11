@@ -27,17 +27,25 @@ function makeFadeInFadeOutBtn() {
   }
 }
 function makeFadeInFadeOutImage() {
-  if ($("#image").hasClass("animate__fadeOut")) {
-    $("#image").removeClass("animate__fadeOut").addClass("animate__fadeIn");
+  if ($("#image").hasClass("animate__fadeOutRight")) {
+    $("#image")
+      .removeClass("animate__fadeOutRight")
+      .addClass("animate__fadeInRight");
   } else {
-    $("#image").removeClass("animate__fadeIn").addClass("animate__fadeOut");
+    $("#image")
+      .removeClass("animate__fadeInRight")
+      .addClass("animate__fadeOutRight");
   }
 }
 
 function makeFadeInFadeOutTextCircle() {
-    if ($("#text-circle").hasClass("animate__fadeOut")) {
-      $("#text-circle").removeClass("animate__fadeOut").addClass("animate__fadeIn");
-    } else {
-      $("#text-circle").removeClass("animate__fadeIn").addClass("animate__fadeOut");
-    }
+  if ($("#text-circle").hasClass("animate__fadeOut")) {
+    $("#text-circle")
+      .removeClass("animate__fadeOut")
+      .addClass("animate__fadeIn");
+  } else {
+    $("#text-circle")
+      .removeClass("animate__fadeIn")
+      .addClass("animate__fadeOut");
   }
+}

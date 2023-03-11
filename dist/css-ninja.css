@@ -278,6 +278,10 @@
     height: 24vh;
     transition: all 0.5s;
   }
+
+  .response-image {
+    display: none;
+  }
 }
 
 /* Circle Text */
