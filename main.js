@@ -1,7 +1,7 @@
 // img and text animation
 setInterval(makeFadeInFadeOutBecome, 4000);
-setInterval(makeFadeInFadeOutNinja, 3950);
-setInterval(makeFadeInFadeOutBtn, 3900);
+setInterval(makeFadeInFadeOutNinja, 3970);
+setInterval(makeFadeInFadeOutBtn, 3940);
 setInterval(makeFadeInFadeOutImage, 4000);
 setInterval(makeFadeInFadeOutTextCircle, 4000);
 
